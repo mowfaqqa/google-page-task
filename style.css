@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin-left: auto;
+  padding: .5rem;
+  
+} 
+nav a, nav img{
+  margin: 5px 10px;
+}
+
+ a {
+  color: black;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav img {
+  height: 20px;
+}
+.sign-in {
+  background: rgb(20, 113, 189);
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: white;
+}
+main{
+  width: 50%;
+  margin: 10rem auto;
+  text-align: center;
+}
+ main img {
+   width: 250px;
+ }
+
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+main img {
+  margin-bottom: 20px;
+}
+.btn-container{
+  margin-top: 1em;
+
+}
+.btn-container button{
+  padding: 0.5rem;
+  border: none;
+}
+footer{
+  background: rgb(201, 200, 200);
+}
+.footer-top {
+  padding: 0.2rem;
+  border-bottom: 1px black solid;
+}
+.footer-bottom{
+  padding: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.left a {
+  margin-right: 0.5rem;
+  color: black;
+  text-decoration: none;
+}
+.footer-bottom a {
+  color: black;
+  text-decoration: none;
+}
+.right a {
+  margin-right: 0.3rem;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
